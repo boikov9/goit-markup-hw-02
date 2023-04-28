@@ -1,0 +1,172 @@
+body {
+    background-color: #FFFFFF;
+}
+
+/* WEB color #4D5AE5 */
+/* STUDIO color #2E2F42 */
+/* menu color #2E2F42 */
+/* contacts color #434455 */
+/* hero_text color #FFFFFF */
+/* order_button color #4D5AE5 */
+/* order_button text color #FFFFFF */
+/* features_header color #434455 */
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+.web{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #4D5AE5;
+}
+.logo{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2E2F42;;
+}
+
+.menu_link{
+ font-family: 'Roboto', sans-serif;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 24px;
+ letter-spacing: 0.02em;
+
+ color: #2E2F42;
+ }
+
+ .menu_link:hover,
+ .menu_link:focus {
+    color: #404BBF;
+ }
+
+ 
+.contacts_item {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.contacts_item:hover,
+.contacts_item:focus {
+    color: #404BBF;
+}
+
+.hero_text {
+ font-family: 'Roboto', sans-serif;
+ font-weight: 700;
+ font-size: 56px;
+ line-height: 60px;;
+ letter-spacing: 0.02em;
+ color: #FFFFFF;
+}
+
+.order_button {
+ font-family: 'Roboto', sans-serif;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.33;
+ letter-spacing: 0.04em;
+ color: #FFFFFF;
+}
+
+.order_button{
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.order_button:hover,
+.order_button:focus {
+  background-color: #404BBF;
+}
+
+.feature_header {
+ font-family: 'Roboto', sans-serif;
+ font-weight: 500;
+ font-size: 20px;
+ line-height: 24px;
+ letter-spacing: 0.02em;
+ color: #2E2F42;
+}
+
+.feature_text {
+ font-family: 'Roboto', sans-serif;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 24px;
+ letter-spacing: 0.02em;
+ color: #434455;
+}
+
+.second_section_header {
+ font-family: 'Roboto', sans-serif;
+ font-style: normal;
+ font-weight: 700;
+ font-size: 36px;
+ line-height: 40px;
+ letter-spacing: 0.02em;
+ text-transform: capitalize;
+  color: #2E2F42;
+}
+
+.team_header {
+ font-family: 'Roboto', sans-serif;
+ font-style: normal;
+ font-weight: 700;
+ font-size: 36px;
+ line-height: 40px;
+ letter-spacing: 0.02em;
+ text-transform: capitalize;
+ color: #2E2F42;
+}
+
+.member_name{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;    
+}
+
+.profession{
+ font-family: 'Roboto', sans-serif;
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 24px;
+ letter-spacing: 0.02em;
+ color: #434455;
+}
+
+.footer_text{
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 24px;
+ letter-spacing: 0.02em;
+ color: #F4F4FD;
+}
