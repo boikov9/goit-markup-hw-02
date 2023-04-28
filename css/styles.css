@@ -1,5 +1,6 @@
 body {
-  background-color: #434455;
+  color: #434455;
+  background-color: #FFFFFF;
   font-family: "Roboto", sans-serif;
 }
 
@@ -39,7 +40,8 @@ button {
 }
 
 .menu_link {
-  /* font-family: "Roboto", sans-serif; */
+  font-family: "Roboto", sans-serif; 
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -73,7 +75,7 @@ button {
 
 /*check and delete*/
 .contacts{
-  /* font-family: "Roboto", sans-serif; */
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -83,7 +85,7 @@ button {
 }
 
 .contacts_item {
-  /* font-family: "Roboto", sans-serif; */
+  font-family: "Roboto", sans-serif; 
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -97,12 +99,12 @@ button {
 }
 
 .hero_text {
-  /* font-family: "Roboto", sans-serif; */
+  font-family: "Roboto", sans-serif; 
   text-align: center;
   line-height: 1.07;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
   background-color: #2e2f42;
@@ -120,6 +122,7 @@ button {
   border-radius: 4px;
   width: 169px;
   height: 56px;
+  background-color: #2e2f42;
 }
 .order_button:hover,
 .order_button:focus {
@@ -127,7 +130,7 @@ button {
 }
 
 .features_header {
-  /* font-family: "Roboto", sans-serif; */
+  font-family: "Roboto", sans-serif; 
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -136,7 +139,7 @@ button {
 }
 
 .features_text {
-  /* font-family: "Roboto", sans-serif; */
+  font-family: "Roboto", sans-serif; 
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -145,7 +148,7 @@ button {
 }
 
 .second_section_header {
-  /* font-family: "Roboto", sans-serif; */
+  font-family: "Roboto", sans-serif; 
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -157,38 +160,42 @@ button {
 }
 
 .team_header {
-  /* font-family: "Roboto", sans-serif; */
+  font-family: "Roboto", sans-serif; 
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  background-color: #f4f4fd;
 }
 
 .member_name {
-  /* font-family: "Roboto", sans-serif; */
+  font-family: "Roboto", sans-serif; 
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  background-color: #FFFFFF
 }
 
 .profession {
-  /* font-family: "Roboto", sans-serif; */
+  font-family: "Roboto", sans-serif; 
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #434455;
+  background-color: #FFFFFF
 }
 
 .filters_btn {
-  /* font-family: "Roboto", sans-serif; */
+  font-family: "Roboto", sans-serif; 
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -205,7 +212,7 @@ button {
 .filters_btn:hover,
 .filters_btn:focus {
   background-color: #404bbf;
-  /* font-family: "Roboto", sans-serif; */
+  font-family: "Roboto", sans-serif; 
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -214,7 +221,7 @@ button {
 }
 
 .card_header {
-  /* font-family: "Roboto", sans-serif; */
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -224,7 +231,7 @@ button {
 }
 
 .card_text {
-  /* font-family: "Roboto", sans-serif; */
+  font-family: "Roboto", sans-serif; 
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -234,7 +241,7 @@ button {
 }
 
 .footer_text {
-  /* font-family: "Roboto", sans-serif; */
+  font-family: "Roboto", sans-serif; 
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
