@@ -1,5 +1,5 @@
 body {
-  background-color: #ffffff;
+  background-color: #434455;
   font-family: "Roboto", sans-serif;
 }
 
@@ -15,16 +15,20 @@ button {
   cursor: pointer;
 }
 
-.web {
+:root {
+
+}
+
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.logo {
+.studio {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -67,6 +71,17 @@ button {
   color: #404bbf;
 }
 
+/*check and delete*/
+.contacts{
+  /* font-family: "Roboto", sans-serif; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
 .contacts_item {
   /* font-family: "Roboto", sans-serif; */
   font-style: normal;
@@ -83,18 +98,21 @@ button {
 
 .hero_text {
   /* font-family: "Roboto", sans-serif; */
+  text-align: center;
+  line-height: 1.07;
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
   letter-spacing: 0.02em;
   color: #ffffff;
+  background-color: #2e2f42;
 }
 
 .order_button {
-  /* font-family: "Roboto", sans-serif; */
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.33;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
   background: #4d5ae5;
@@ -131,8 +149,9 @@ button {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
 }
