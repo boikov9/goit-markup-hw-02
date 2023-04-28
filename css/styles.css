@@ -159,6 +159,14 @@ button {
   color: #2e2f42;
 }
 
+.four {
+  background-color: #f4f4fd;
+}
+.team_section {
+  background-color: #FFFFFF;
+}
+
+
 .team_header {
   font-family: "Roboto", sans-serif; 
   font-style: normal;
@@ -240,6 +248,10 @@ button {
   color: #434455;
 }
 
+.footer {
+  background-color: #2e2f42;
+}S
+
 .logo_footer {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -259,6 +271,8 @@ button {
   text-transform: uppercase;
   color: #f4f4fd;
 }
+
+
 .footer_text {
   font-family: "Roboto", sans-serif; 
   font-style: normal;
