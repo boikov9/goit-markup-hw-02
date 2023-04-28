@@ -1,138 +1,227 @@
 body {
-    background-color: #FFFFFF;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
 }
 
-/* WEB color #4D5AE5 */
-/* STUDIO color #2E2F42 */
-/* menu color #2E2F42 */
-/* contacts color #434455 */
-/* hero_text color #FFFFFF */
-/* order_button color #4D5AE5 */
-/* order_button text color #FFFFFF */
-/* features_header color #434455 */
-
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-button{
-    cursor: pointer;
+button {
+  cursor: pointer;
 }
 
-.web{
-  font-family: 'Raleway', sans-serif;
+.web {
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  color: #4D5AE5;
+  color: #4d5ae5;
 }
-.logo{
-  font-family: 'Raleway', sans-serif;
+.logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2E2F42;;
+  color: #2e2f42;
 }
 
 .menu_link {
- font-family: 'Roboto', sans-serif;
- font-weight: 500;
- font-size: 16px;
- line-height: 24px;
- letter-spacing: 0.02em;
+  /* font-family: "Roboto", sans-serif; */
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
 
- color: #2E2F42;
- }
+  color: #2e2f42;
+  position: relative;
+}
 
- .menu_link:hover {
-    color: #404BBF;
- }
+.menu_link:before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #404bbf;
+  visibility: hidden;
 
- 
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
 
+.menu_link:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.menu_link:hover,
+.menu_link:focus {
+  color: #404bbf;
+}
 
 .contacts_item {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #434455;
+  /* font-family: "Roboto", sans-serif; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 .contacts_item:hover,
 .contacts_item:focus {
-    color: #404BBF;
+  color: #404bbf;
 }
 
-.filters_btn{
- font-family: 'Roboto', sans-serif;
- font-weight: 500;
- font-size: 16px;
- line-height: 24px;
- letter-spacing: 0.04em;
- color: #4D5AE5;
+.hero_text {
+  /* font-family: "Roboto", sans-serif; */
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
-.filters_btn{
-    background: #F4F4FD;
-    border: 1px solid #E7E9FC;
-    border-radius: 4px;
-  
+.order_button {
+  /* font-family: "Roboto", sans-serif; */
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 169px;
+  height: 56px;
+}
+.order_button:hover,
+.order_button:focus {
+  background-color: #404bbf;
+}
+
+.features_header {
+  /* font-family: "Roboto", sans-serif; */
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.features_text {
+  /* font-family: "Roboto", sans-serif; */
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.second_section_header {
+  /* font-family: "Roboto", sans-serif; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.team_header {
+  /* font-family: "Roboto", sans-serif; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.member_name {
+  /* font-family: "Roboto", sans-serif; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.profession {
+  /* font-family: "Roboto", sans-serif; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.filters_btn {
+  /* font-family: "Roboto", sans-serif; */
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+}
+
+.filters_btn {
+  background: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 
 .filters_btn:hover,
 .filters_btn:focus {
- background-color: #404BBF;
- font-family: 'Roboto', sans-serif;
- font-weight: 500;
- font-size: 16px;
- line-height: 24px;
- letter-spacing: 0.04em;
- color: #FFFFFF;
+  background-color: #404bbf;
+  /* font-family: "Roboto", sans-serif; */
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
 }
 
-.card_header{
- font-family: 'Roboto', sans-serif;
- font-style: normal;
- font-weight: 500;
- font-size: 20px;
- line-height: 24px;
- letter-spacing: 0.02em;
- color: #2E2F42;
+.card_header {
+  /* font-family: "Roboto", sans-serif; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-.card_text{
- font-family: 'Roboto', sans-serif;
- font-style: normal;
- font-weight: 400;
- font-size: 16px;
- line-height: 24px;
-/* identical to box height, or 150% */
-
-letter-spacing: 0.02em;
-
-/* SLATE */
-
-color: #434455;
+.card_text {
+  /* font-family: "Roboto", sans-serif; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
-
-.footer_text{
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #F4F4FD;
-   }
+.footer_text {
+  /* font-family: "Roboto", sans-serif; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
