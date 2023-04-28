@@ -36,7 +36,7 @@ button {
   line-height: 21px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #2E2F42;
 }
 
 .menu_link {
@@ -73,6 +73,9 @@ button {
   color: #404bbf;
 }
 
+.adress{
+  font-style: normal;
+}
 /*check and delete*/
 .contacts{
   font-family: "Roboto", sans-serif;
@@ -97,7 +100,9 @@ button {
 .contacts_item:focus {
   color: #404bbf;
 }
-
+.one {
+  background-color: #2e2f42;
+}
 .hero_text {
   font-family: "Roboto", sans-serif; 
   text-align: center;
@@ -122,7 +127,7 @@ button {
   border-radius: 4px;
   width: 169px;
   height: 56px;
-  background-color: #2e2f42;
+  background-color: #4D5AE5 ;
 }
 .order_button:hover,
 .order_button:focus {
@@ -250,7 +255,8 @@ button {
 
 .footer {
   background-color: #2e2f42;
-}S
+  
+}
 
 .logo_footer {
   font-family: "Raleway", sans-serif;
@@ -262,7 +268,7 @@ button {
   text-decoration: none;
   color: #4d5ae5;
 }
-.studio {
+.studio_footer {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
