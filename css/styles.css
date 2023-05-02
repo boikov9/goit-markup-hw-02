@@ -17,7 +17,7 @@ button {
 }
 
 :root {
-
+ background-color: #2E2F42;
 }
 
 .logo {
@@ -33,7 +33,7 @@ button {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2E2F42;
@@ -41,10 +41,9 @@ button {
 
 .menu_link {
   font-family: "Roboto", sans-serif; 
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
   position: relative;
@@ -82,7 +81,7 @@ button {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -92,7 +91,7 @@ button {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -154,7 +153,6 @@ button {
 
 .second_section_header {
   font-family: "Roboto", sans-serif; 
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -194,10 +192,9 @@ button {
 
 .member_name {
   font-family: "Roboto", sans-serif; 
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
   background-color: #FFFFFF
@@ -208,7 +205,7 @@ button {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   background-color: #FFFFFF
@@ -218,7 +215,7 @@ button {
   font-family: "Roboto", sans-serif; 
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #4d5ae5;
 }
@@ -235,7 +232,7 @@ button {
   font-family: "Roboto", sans-serif; 
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
 }
@@ -291,7 +288,7 @@ button {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
